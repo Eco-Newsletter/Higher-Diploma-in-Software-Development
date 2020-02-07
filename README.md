@@ -20,4 +20,4 @@ Mobile App Development
 
 ICT Employability Skills
 
-Software Development Project (A Web Application) (HTML, PHP, BOOTSTRAP, SQL)
+Software Development Project (A Web Application) (HTML, PHP, BOOTSTRAP, SQL, Javascript)
