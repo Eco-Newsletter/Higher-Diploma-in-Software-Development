@@ -4,13 +4,13 @@ University of Limerick | Sep 2019 - May 2020
 
 Modules:
 
-OPrating Systems (Linux)
+Operating Systems (Linux)
 
 Java Programming (Introduction and Intermediate) (JAVA)
 
 Database Systems (SQL)
 
-Representation and Modelling (UML, HTML)
+Representation and Modelling (PseudoCode, HTML)
 
 Software Testing (JUNIT)
 
