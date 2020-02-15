@@ -87,7 +87,7 @@ public boolean add(String newName)
 				return false;
 	}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////   
-/* Returns the length f the spreadsheet */
+/* Returns the length of the spreadsheet */
 
 	public int lengthArray()
 	{
