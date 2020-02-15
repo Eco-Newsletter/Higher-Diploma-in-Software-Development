@@ -1,4 +1,4 @@
-Higher Diploma in Data Analytics and Software Development
+Higher Diploma in Software Development
 
 University of Limerick | Sep 2019 - May 2020
 
