@@ -1,4 +1,4 @@
-#A SIMPLE POKER GAME
+# A SIMPLE POKER GAME
 
 For each round of poker, you and the computer are dealt a hand. You then decide if you, or the dealer(computer), can, and want to “open” the game. If one of you does so,  1 token goes “into the pot”. 
 
