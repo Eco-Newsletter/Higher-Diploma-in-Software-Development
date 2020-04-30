@@ -1,21 +1,20 @@
-The computer generates two hands with five cards each, then decides wich hand is the winner according to this rules:
+#A SIMPLE POKER GAME
 
-High card. If no combination can be made, then a player’s hand is valued at the highest single card. If two players have the same high card, then the second highest card would break the tie.
+For each round of poker, each of you are dealt 5 cards from the deck. You then decide if you, or the dealer, can, and want to “open” the game, in that order. If one of you does so, you each have to put 1 token “into the pot”. (The computer should default to ‘opening’ if it has a qualifying hand, but you can decide to proceed or not as the other player)
 
-One Pair. A pair is formed when you have two of any of the same ranks.
+Then you can specify the cards you would like to re-fresh in your hand (to a maximum of 4). Likewise the dealer can refresh their hand, up to four cards (the computer can default to “random selection of cards to discard”, but any more sophistication would be a bonus).
+After that, you can bet a number of tokens (0-3) and the computer can decide to let you win or ‘see’ your cards. If it lets you win, you get all the tokens in the pot. If it ‘sees you’, then it matches your bet and the best hand wins, taking all the tokens ‘in the pot’. (Again, the computer’s responses can be quite basic in that, for example, it might to only go forward if it has 2 pairs or better)
+The game ends when the (non-computer) player decides it does or when one of the players has lost all their tokens.
 
-Two Pairs. When more than one player has two pairs, the player with the highest pair wins.
+The winning order of hands in poker is:
+A royal flush (a straight flush starting at Ace and going down through King, Queen, Jack, to Ten)
+A straight flush (a straight but all in the same suit – the higher the better)
+Four of a kind (the higher the better)
+A flush (all the same suit - the higher the better)
+A straight (for example “4 clubs, 5 spades, 6 clubs, 7 diamond, 8 spades” - the higher the better)
+A full house (triplets and a pair - the higher the triplets, the better)
+Triplets (the higher the better)
+2 pairs (the higher the better)
+1 pair (the higher the better) 
 
-Three of a Kind. 3 of the same ranks.
-
-Straight. A straight is a five-card hand consisting of a running sequence of cards, regardless of suit. If two players have straights, the straight of the higher card wins.
-
-Flush. When all five cards in a hand are of the same suit, it is a flush. If two players have a flush, the person with the highest card in that suit wins.
-
-Full House. When a player has three-of-a-kind and a pair in the same hand, it is called a Full House.
-
-Four of a Kind. If you are lucky enough to have all four of a given number, then you have a very powerful hand.
-
-Straight Flush. Even rarer than four of a kind, a straight flush is made up of five consecutive cards, all from the same suit.
-
-Royal Flush. The best hand of them all is this famous combination, formed by a Straight Flush that runs to the Ace, making it unbeatable. Odds of being dealt this hand can be as high as 1 in 650,000 deals.
+To ‘open you need a pair of jacks or better in the above list.
